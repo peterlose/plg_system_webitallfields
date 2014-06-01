@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params" >
+        <fieldset name="params"
+                  label="PLG_SYSTEM_WEBITALLFIELDS_EXTRA_LABEL" >
+            <field
+                name="contact_extra1"
+                type="text"
+                label="PLG_SYSTEM_WEBITALLFIELDS_EXTRA_LABEL"
+             />
+        </fieldset>
+    </fields>
+</form>

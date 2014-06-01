@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system">
+	<name>Webitall Fields</name>
+	<author>Webitall Aps</author>
+	<creationDate>June 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.webitall.dk</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_SYSTEM_WEBITALLFIELDS_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="webitallfields">webitallfields.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_webitallfields.ini</language>
+		<language tag="en-GB">en-GB.plg_system_webitallfields.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				<field name="banners" type="radio"
+					label="PLG_SYSTEM_WEBITALLFIELDS_BANNERS"
+					description="PLG_SYSTEM_WEBITALLFIELDS_BANNERS_DESC"
+					class="btn-group btn-group-yesno"
+					default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="contact" type="radio"
+					label="PLG_SYSTEM_WEBITALLFIELDS_CONTACT"
+					description="PLG_SYSTEM_WEBITALLFIELDS_CONTACT_DESC"
+					class="btn-group btn-group-yesno"
+					default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="content" type="radio"
+					label="PLG_SYSTEM_WEBITALLFIELDS_CONTENT"
+					description="PLG_SYSTEM_WEBITALLFIELDS_CONTENT_DESC"
+					class="btn-group btn-group-yesno"
+					default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				
+				<field name="weblinks" type="radio"
+					label="PLG_SYSTEM_WEBITALLFIELDS_WEBLINKS"
+					description="PLG_SYSTEM_WEBITALLFIELDS_WEBLINKS_DESC"
+					class="btn-group btn-group-yesno"
+					default="0">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
