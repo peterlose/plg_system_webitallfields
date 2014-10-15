@@ -52,7 +52,6 @@ class plgSystemWebitallfields extends JPlugin {
                     }
                 }
                 break;
-
         }
         return true;
     }
