@@ -1,0 +1,9 @@
+{
+    "name": "webitallfields",
+    "version": "0.0.1",
+    "ignore": [
+        ".gitignore",
+        ".git",
+        "README.md"
+    ]
+}
