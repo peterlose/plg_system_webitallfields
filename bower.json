@@ -4,9 +4,7 @@
     "ignore": [
         ".gitignore",
         ".git",
+        "bower.json",
         "README.md"
-    ],
-    "dependencies": {
-        "jquery": ">=1.10.2"
-    }
+    ]
 }
