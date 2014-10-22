@@ -53,6 +53,16 @@ class plgSystemWebitallfields extends JPlugin {
                 }
                 break;
         }
+            case 'com_menu':
+                
+                if( $this->params->get('menu')==1 ) {
+                    if ($app->isAdmin()) {
+                            JForm::addFormPath(__DIR__ . '/forms');
+                            $form->loadFile('menu', false);
+                    }
+                }
+                break;
+        }
         return true;
     }
  
